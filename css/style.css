@@ -116,3 +116,70 @@ p#bottom{
 .btn:active{
     background-color: red;
 }
+
+
+.block{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+.block1{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+.pbox{
+    width: 800px;
+    height: 500px;
+    border: 1px solid green;
+    position: relative;
+    background-image: url(./images/zach-miller-KPHwwF2WOjI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pbox h1{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.pbox h2{
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
+
+.btn{
+    position: fixed;
+    top: 50px;
+}
+
+/* .top1 li:first-child{
+    background-color: aqua;
+}
+
+.top1 li:last-child{
+    background-color: pink;
+} */
+
+/* .top1 li:nth-child(even){
+    background-color: black;
+}
+.top1 li:nth-child(odd){
+    background-color: pink;
+} */
+
+.top1 li:nth-child(3){
+    background-color: green;
+}
+
+.top1 li:nth-child(5){
+    background-color: blue;
+}
